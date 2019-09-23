@@ -1,0 +1,46 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+	int k;
+	cout << "Vvedite den ";
+	cin >> k;
+	k = k % 7 + 1 ;
+	if (k == 0) {
+		cout << "Voskresen'e \n";
+	}
+	else {
+		if (k == 1) {
+			cout << "Ponedel'nik \n";
+		}
+		else {
+			if (k == 2) {
+				cout << "Vtornik \n";
+			}
+			else {
+				if (k == 3) {
+					cout << "Sreda \n";
+				}
+				else {
+					if (k == 4) {
+						cout << "Chetverg \n";
+					}
+					else {
+						if (k == 5) {
+							cout << "Pyatnica \n";
+						}
+						else {
+							if (k == 6) {
+								cout << "Subbota \n";
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+    return 0;
+}
